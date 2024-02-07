@@ -6,7 +6,7 @@
 /*   By: brmajor <brmajor@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/01 15:24:04 by brmajor           #+#    #+#             */
-/*   Updated: 2024/02/02 12:47:13 by brmajor          ###   ########.fr       */
+/*   Updated: 2024/02/07 09:57:51 by brmajor          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,10 @@
 class   ClapTrap
 {
 protected:
-std::string Name;
-int         HP;
-int         EP;
-int         AD;
+std::string _name;
+int         _hp;
+int         _ep;
+int         _ad;
 public:
 ClapTrap(void);
 ClapTrap(std::string input);
